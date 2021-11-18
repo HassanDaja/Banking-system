@@ -47,7 +47,7 @@ if conn:
 
     ###IMGs
     def img_def(src):
-        x = PIL.Image.open(r"C:\Users\GTX\PycharmProjects\hassan1\x\First_Python_project"+"\\"+src)
+        x = PIL.Image.open(src)
         x = ImageTk.PhotoImage(x)
         return x
 
