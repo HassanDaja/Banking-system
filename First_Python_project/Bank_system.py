@@ -40,6 +40,7 @@ if conn:
     window.title("Banking system")
     ###Email pattern
     pattern = "[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]{2,3}$"
+    ###Username pattern
     pattern2 = "^(?=.{8,20}$)(?![0-9_.-@])[a-zA-Z._]"
     # getting height and width
 
